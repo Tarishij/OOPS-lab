@@ -1,0 +1,10 @@
+public class Driver_Date{
+    public static void main(String[] args){
+        Date d1=new Date();
+        d1.print();
+        Date d2=new Date(17,01,2019);
+        d2.print();
+        Date d3=new Date(d2);
+        d3.print();
+    }
+}
